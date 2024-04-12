@@ -9,7 +9,7 @@
 
 <h1>Painting Title Generator</h1>
 <p>Enter words to generate painting titles:</p>
-<input type="text" id="inputWords" placeholder="Enter words...">
+<input type="text" id="inputWords" placeholder="Enter words..." onkeypress="handleKeyPress(event)">
 <button onclick="generateTitles()">Generate Titles</button>
 
 <div id="output"></div>
@@ -45,4 +45,3 @@ function handleKeyPress(event) {
 
 </body>
 </html>
-
